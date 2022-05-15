@@ -51,7 +51,7 @@ def OfficeVersion_interface(name):
             version_logger.info('%s 获取官方版本正确'%(name))
             return response.json()['result']['solana-core']
         else:
-            response = requests.request(method="GET",headers={"Authorization": "Bearer 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"},url=setting.node_dic[name]['office_url'])
+            response = requests.request(method="GET",headers={"Authorization": "Bearer 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"},url=setting.node_dic[name]['office_url'])
             # return response.json()
             version_logger.info('%s 获取官方版本正确'%(name))
             return response.json()['tag_name']
