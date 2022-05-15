@@ -68,6 +68,15 @@ node_dic = {
         "m":"getnetworkinfo",
         "fmt":"['result']['subversion'].split(':')[1][:-1]"
     },
+    "ltc":{
+        "node_url":"https://mainnet-node.bitcharm.com/ltc",
+        "office_url":"https://api.github.com/repos/litecoin-project/litecoin/releases/latest",
+        "method":"POST",
+        "user":"btcex_ltc",
+        "passwd":"qtoyVQ6sCT9-1aBpFTuL3s9gbFRVFQLhnorB7WyaCGo=",
+        "m":"getnetworkinfo",
+        "fmt":"['result']['subversion'].split(':')[1][:-1]"
+    },
     "eth":{
         "node_url":"https://mainnet-node.bitcharm.com/eth",
         "office_url":"https://api.github.com/repos/ethereum/go-ethereum/releases/latest",
