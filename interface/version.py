@@ -45,13 +45,14 @@ def NodeVersion_interface(name):
         return '获取版本错误'
 
 def OfficeVersion_interface(name):
+    git_headers = {'Authorization': 'token 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'}
     try:
         if name == 'sol':
             response = requests.request(method=setting.node_dic[name]['method'], url=setting.node_dic[name]['office_url'],headers=headers,data=payload(name))
             version_logger.info('%s 获取官方版本正确'%(name))
             return response.json()['result']['solana-core']
         else:
-            response = requests.request(method="GET",url=setting.node_dic[name]['office_url'])
+            response = requests.request(method="GET",headers=git_headers,url=setting.node_dic[name]['office_url'])
             # return response.json()
             version_logger.info('%s 获取官方版本正确'%(name))
             return response.json()['tag_name']
