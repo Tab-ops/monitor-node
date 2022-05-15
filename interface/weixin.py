@@ -2,7 +2,7 @@ import requests
 from lib import common
 headers = {"Content-Type": "application/json"}
 send_logger=common.get_logger('发送消息')
-send_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=c540a576-6486-4d95-b9c8-22267532791e"
+send_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=b13a9432-b84d-460d-b48d-7cc7db7f659f"
 def send_msg(d):
     send_data = {
         "msgtype": "text",
