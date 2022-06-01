@@ -140,8 +140,17 @@ node_dic = {
         "m":"klay_clientVersion",
         "fmt":"['result'].split('/')[1].split('+')[0]"
     },
-    "luna":{
+    "luna-classic":{
         "node_url":"https://mainnet-node.bitcharm.com/luna-api/node_info",
+        "office_url":"https://api.github.com/repos/terra-money/classic-core/releases/latest",
+        "method":"GET",
+        "user":"",
+        "passwd":"",
+        "m":"",
+        "fmt":"['application_version']['version']"
+    },
+    "luna":{
+        "node_url":"https://mainnet-node.bitcharm.com/luna2-api/node_info",
         "office_url":"https://api.github.com/repos/terra-money/core/releases/latest",
         "method":"GET",
         "user":"",
