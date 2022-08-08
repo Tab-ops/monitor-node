@@ -173,7 +173,7 @@ node_dic = {
         "method":"GET",
         "user":"",
         "passwd":"",
-        "m":"",
+        "m":"info.getNodeVersion",
         "fmt":"['result']['version'].split('/')[1]"
     }
 }
