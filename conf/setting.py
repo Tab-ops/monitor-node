@@ -105,7 +105,7 @@ node_dic = {
         "fmt":"['configNodeInfo']['codeVersion']"
     },
     "sol":{
-        "node_url":"https://mainnet-node.bitcharm.com/sol",
+        "node_url":"https://sol.btcex.com/2d2a8376b74e5a12f741f0beb33a302b466bfa8a",
         "office_url":"https://api.mainnet-beta.solana.com",
         "method":"POST",
         "user":"",
