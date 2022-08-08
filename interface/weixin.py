@@ -15,5 +15,5 @@ def send_msg(d):
         send_logger.info('发送消息成功,message:%s'%(res.text)) 
         return True,res.text
     except Exception as e:
-        end_logger.info('发送消息失败,message:%s'%(e)) 
+        send_logger.info('发送消息失败,message:%s'%(e)) 
         return '发送消息失败'

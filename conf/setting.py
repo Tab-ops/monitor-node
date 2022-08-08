@@ -166,6 +166,15 @@ node_dic = {
         "passwd":"",
         "m":"",
         "fmt":"['application_version']['version']"
+    },
+    "avax":{
+        "node_url":"https://mainnet-node.bitcharm.com/avax/ext/info",
+        "office_url":"https://api.github.com/repos/ava-labs/avalanchego/releases/latest",
+        "method":"GET",
+        "user":"",
+        "passwd":"",
+        "m":"",
+        "fmt":"['result']['version'].split('/')[1]"
     }
 }
 
