@@ -170,11 +170,11 @@ node_dic = {
     "avax":{
         "node_url":"https://mainnet-node.bitcharm.com/avax/ext/info",
         "office_url":"https://api.github.com/repos/ava-labs/avalanchego/releases/latest",
-        "method":"GET",
+        "method":"POST",
         "user":"",
         "passwd":"",
         "m":"info.getNodeVersion",
-        "fmt":"['result']['version']"
+        "fmt":"['result']['version'].split('/')[1]"
     }
 }
 
