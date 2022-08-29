@@ -86,6 +86,15 @@ node_dic = {
         "m":"web3_clientVersion",
         "fmt":"['result'].split('/')[1].split('-')[0]"
     },
+    "matic":{
+        "node_url":"https://mainnet-node.bitcharm.com/matic",
+        "office_url":"https://api.github.com/repos/maticnetwork/bor/releases/latest",
+        "method":"POST",
+        "user":"",
+        "passwd":"",
+        "m":"web3_clientVersion",
+        "fmt":"['result'].split('/')[1].split('-')[0]"
+    },
     "bsc":{
         "node_url":"https://mainnet-node.bitcharm.com/bsc",
         "office_url":"https://api.github.com/repos/binance-chain/bsc/releases/latest",
